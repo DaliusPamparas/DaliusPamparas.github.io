@@ -1,0 +1,350 @@
+
+
+/* CSS Mini Reset */
+
+html, body, div, form, fieldset, legend, label
+{
+	margin: 0;
+	padding: 0;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th, td
+{
+	text-align: left;
+	vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+
+img
+{
+	border: 0;
+
+
+ }
+
+
+body { padding-top: 80px; }
+
+/* Menu */
+.mainMenu{
+  height: 82px;
+  background-color: #f7ce16;
+
+}
+
+.mainMenufix{
+  padding-top: 20px;
+
+}
+.mainMenu a{
+  font: Verdana, Geneva, sans-serif;
+  color: #010101;
+  font-size: 14px;
+  padding-left: 0px;
+  padding-right: 0px;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+
+
+
+}
+.mainMenu a:hover{
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+}
+.mainMenu a:active{
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+}
+.mainMenu a:visited{
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+}
+.betweenMenu{
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+#logo{
+  padding-bottom: 6px;
+}
+
+.centerBlock {
+  display: table;
+  margin: auto;
+}
+.mobmenu{
+	padding-top: 15px;
+	text-align: right;
+}
+
+
+/* Main */
+.mainScreen{
+  background-image: url("../images/fish-dagens-lunch.jpg");
+	background-position: center;
+  background-size: 100% auto;
+	background-repeat: no-repeat;
+  height: 600px;
+}
+
+.dayDish{
+	background-color: black;
+	border: solid black 3px;
+	padding: 15px;
+}
+.dayDishShow{
+	margin-top: 250px;
+	border: solid black 4px;
+
+}
+.dayMenu{
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+	color: white;
+	padding-top: 10px;
+
+}
+.dayMenuKr{
+  font-family: 'Verdana', sans-serif;
+  font-size: 15px;
+	color: grey;
+	padding-top: 25px;
+
+
+}
+.dayDishPrice{
+	font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+	color: #fbcd05;
+}
+.btnMain{
+	background-color: #fbcd05;
+	border-radius: 7px;
+	width: 80%;
+	padding: 10px 10px 10px 10px;
+	margin-left: 17px;
+	margin-bottom: 15px;
+	color:black;
+	font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+	text-align: center;
+	/* gradient */
+background: #f7dd18; /* Old browsers */
+background: -moz-linear-gradient(top, #f7dd18 0%, #f4b907 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f7dd18 0%,#f4b907 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f7dd18 0%,#f4b907 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7dd18', endColorstr='#f4b907',GradientType=0 ); /* IE6-9 */
+
+}
+.mainScreenContent{
+	margin-bottom: 100px;
+}
+.aboutUsTitle{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	color: black;
+}
+.aboutUsContent1{
+	text-align: right;
+	color: #8D8D8D;
+	font: Verdana, sans-serif;
+  font-size: 14px;
+
+}
+.aboutUsContent2{
+
+	color: #8D8D8D;
+	font: Verdana, sans-serif;
+  font-size: 14px;
+}
+.aboutUsContent1>img{
+	width: 100%;
+	height: auto;
+}
+.aboutUsContent2>img{
+	width: 100%;
+	height: auto;
+}
+
+.menuFish{
+	background-color: #292727;
+
+	background-image: url(../images/fish-bg.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+
+}
+.menuFishTitle{
+	  padding-top: 50px;
+		padding-bottom: 50px;
+		font-family: 'Roboto Slab', serif;
+	  font-size: 50px;
+		color: white;
+}
+.menuFishRight{
+	text-align: right;
+	margin-bottom: 20px;
+}
+.menuFishContentLeftTop{
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 24px;
+}
+.menuFishContentLeftBottom{
+	font: Verdana, sans-serif;
+	color: #A2A2A2;
+	font-size: 14px;
+	line-height: 110%;
+
+
+}
+.menuFishContentRightTop{
+	font-family: 'Roboto Slab', serif;
+	color: #f7ce16;
+	font-size: 24px;
+}
+#meny{
+	padding-bottom: 60px;
+}
+
+.reservationTitle{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	color: black;
+
+}
+.reservationBtn{
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+.reservationContent{
+  margin-bottom: 30px;
+}
+#reservation{
+	margin-bottom: 50px;
+}
+.events{
+	background-color: #292727;
+  background-image: url(../images/band-1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+	 -moz-background-size: cover;    /* Mozilla*/
+	 -o-background-size: cover;      /* Opera*/
+	 background-size: cover;         /* Generic*/
+	height: 700px;
+
+}
+.contentEvents{
+	margin-top: 100px;
+	padding-right: 20px;
+}
+#events{
+ margin-bottom: 60px;
+}
+.galleryRow{
+	padding-bottom: 3%;
+}
+.galleryRow img{
+	width: 100%;
+	height: 100%;
+}
+.galleryRow img
+{
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+}
+
+.galleryRow img:hover
+{
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+}
+#galleri{
+	margin-top: 150px;
+}
+.contacts{
+	  background-color: #f7ce16;
+}
+.hittaTitle{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	color: black;
+
+}
+.contactsH2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	color: black;
+}
+
+.no-gutter > [class*='col-']
+{
+    padding-right:0;
+    padding-left:0;
+}
+.contactLines
+{
+	padding-top: 10px;
+
+	border-top: 1px solid white ;
+
+}
+.contactAlign{
+	text-align: right;
+}
+.copyrait
+{
+	padding: 5px;
+	color: lightgrey;
+}
+@media only screen and (max-width: 996px)
+{
+  #omoss{
+		margin-top: -180px;
+	}
+	.mainScreenContent
+	{
+		text-align: center;
+	}
+	.btnMain
+	{
+		width: 90%;
+	}
+	.mainScreen
+	{
+		height: 400px;
+	}
+	.aboutUsContent1
+	{
+		text-align: left;
+	}
+	.galleryRow img
+	{
+		padding-bottom: 30px;
+	}
+}

@@ -1,0 +1,41 @@
+/* base styles
+----------------------------------------*/
+
+body {
+  background-color: #fafcfc;
+}
+.wrapper{
+  background-color: #eaf3f3;
+  padding: 40px;
+  margin: 15px;
+  margin-top: 25px;
+}
+.header-text{
+  font-family: 'Titillium Web', Arial, sans-serif;
+  font-weight:300;
+  font-style: italic;
+  font-size: 2em;
+  color: #556b73;
+}
+#logo{
+  border: 0px;
+  display: inline-block;
+}
+.header-text-links {
+  color: #9db7cc;
+  font-family: tahoma;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 20px;
+
+
+
+}
+.JobsTags{
+  margin: 20px 10px 10px 10px;
+ display: inline-block;
+  padding: 5px 10px 7px 10px;
+  background-color: #fff;
+
+  border-radius: 10px;
+}

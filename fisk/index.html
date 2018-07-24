@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fish restourang</title>
+     <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid mainMenu navbar-fixed-top">
+      <div class="container mainMenufix  text-center">
+        <div class="row">
+          <div class="col-sm-12 ">
+            <div class="centerBlock visible-lg">
+            <a href="#omoss" class="smoothScroll ">om oss</a>
+            <span class="betweenMenu ">/</span>
+            <a href="#meny" class="smoothScroll ">meny</a>
+            <span class="betweenMenu ">/</span>
+            <a href="#reservation" class="smoothScroll ">reservation</a>
+
+            <span class="betweenMenu "></span>
+            <img src="images/fisk-logo.png" id="logo" alt="Fish Fresh">
+
+            <span class="betweenMenu "></span>
+            <a href="#events" class="smoothScroll ">events</a>
+            <span class="betweenMenu">/</span>
+            <a href="#galleri" class="smoothScroll ">galleri</a>
+            <span class="betweenMenu ">/</span>
+            <a href="#hittaoss" class="smoothScroll ">hitta oss</a>
+
+
+
+            </div>
+
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="#omoss" onclick="closeNav()">om oss</a>
+                <a href="#meny" onclick="closeNav()">meny</a>
+                <a href="#reservation" onclick="closeNav()">reservation</a>
+                <a href="#events" onclick="closeNav()">events</a>
+                <a href="#galleri" onclick="closeNav()">galleri</a>
+                <a href="#hittaoss" onclick="closeNav()">hitta oss</a>
+              </div>
+            </div>
+
+            <div class="hidden-lg">
+              <div class="row">
+                <div class="col-xs-6"><img src="images/fisk-logo.png" id="logo" alt="Fish Fresh"></div>
+                <div class="col-xs-6 mobmenu "><a href="#menu" onclick="openNav()">&#9776; Menu</a></div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid mainScreen">
+      <div class="container">
+       <div class="row mainScreenContent">
+         <div class="col-md-1"></div>
+
+         <div class="col-md-5 dayDishShow">
+           <div class="row">
+             <div class="col-md-6 dayDish">
+               <div class="row">
+                 <span class="col-md-4 dayMenu text-right">dagens rätt</span>
+                 <span class="col-md-4 dayDishPrice">89</span>
+                 <span class="col-md-4 dayMenuKr">kr.</span>
+               </div>
+               <div class="row">
+                  <div class="col-xs-12 btnMain">Boka bord</div>
+
+               </div>
+
+             </div>
+             <div class="col-md-6 visible-lg" >
+
+             </div>
+           </div>
+         </div>
+
+       </div>
+           <div id="omoss"></div>
+      </div>
+    </div>
+    <div class="container" >
+      <div class="row">
+        <div class="col-md-12 aboutUsTitle text-center">
+          - Om oss -
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 aboutUsContent1" >
+          Lorem ipsum dolor sit amet, consectetur  adipiscing elit. <br/>Vestibulum sed risus tristique, hendrerit <br/> <br/>
+          <img src="images/fishing-boat-1.jpg" alt="fishing"><br/> <br/>
+          leo eu, aliquet elit. Suspendisse nec malesuada augue.Quisque at metus malesuada, auctor erat et, porta massa.
+        </div>
+        <div class="col-md-6 aboutUsContent2"><img src="images/appetizer-1.jpg" alt="lax"><br/><br/>
+          Lorem ipsum dolor sit amet, consectetur  adipiscing elit. eu, aliquet elit. Suspendisse nec malesuada
+
+            Lorem ipsum dolor sit amet, consectetur  adipiscing elit. eu, aliquet elit. Suspendisse nec
+            Lorem ipsum dolor sit amet, consectetur  adipiscing elit.
+        </div>
+      </div>
+      <div id="meny"></div>
+    </div>
+    <div class="container-fluid menuFish" >
+    <div class="container">
+      <div class="row">
+
+          <div class="col-md-12  menuFishTitle text-center">
+            - Meny -
+          </div>
+
+      </div>
+      <!-- One menu row -->
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-2 col-xs-6  menuFishRight">
+
+
+          <span class="menuFishContentLeftTop">
+            Musslor med rödvinn</span><br/>
+
+
+           <span class="menuFishContentLeftBottom ">
+             Räkor musslor  lipsuum lorem ipsum
+och lorem ipsum
+           </span>
+        </div>
+        <div class="col-sm-6 menuFishContentRightTop">
+            99 kr.
+        </div>
+      </div>
+<!-- One menu row end -->
+
+<!-- One menu row -->
+<div class="row">
+  <div class="col-lg-4 col-lg-offset-2 col-xs-6  menuFishRight">
+
+
+    <span class="menuFishContentLeftTop">
+      Grekisk torsk med </span><br/>
+
+
+     <span class="menuFishContentLeftBottom ">
+       Räkor musslor lipsuum lorem
+     </span>
+  </div>
+  <div class="col-md-6 menuFishContentRightTop">
+      99 kr.
+  </div>
+</div>
+<!-- One menu row end -->
+
+<!-- One menu row -->
+<div class="row">
+  <div class="col-lg-4 col-lg-offset-2 col-xs-6  menuFishRight">
+
+
+    <span class="menuFishContentLeftTop">
+      Lax ipsum</span><br/>
+
+
+     <span class="menuFishContentLeftBottom ">
+       Räkor musslor lipsuum lorem ipsum
+
+     </span>
+  </div>
+  <div class="col-md-6 menuFishContentRightTop">
+      169 kr.
+  </div>
+</div>
+<!-- One menu row end -->
+
+<!-- One menu row -->
+<div class="row">
+  <div class="col-lg-4 col-lg-offset-2 col-xs-6  menuFishRight">
+
+
+    <span class="menuFishContentLeftTop">
+      Fish soppa</span><br/>
+
+
+     <span class="menuFishContentLeftBottom ">
+       Räkor musslor lipsuum
+     </span>
+  </div>
+  <div class="col-md-6 menuFishContentRightTop">
+      99 kr. | Rekommenderas
+  </div>
+</div>
+<!-- One menu row end -->
+
+<!-- One menu row -->
+<div class="row">
+  <div class="col-lg-4 col-lg-offset-2 col-xs-6  menuFishRight">
+
+
+    <span class="menuFishContentLeftTop">
+      Lax soppa</span><br/>
+
+
+     <span class="menuFishContentLeftBottom ">
+       Räkor musslor lipsuum lorem ipsum
+och lorem ipsum
+     </span>
+  </div>
+  <div class="col-md-6 menuFishContentRightTop">
+      129 kr.
+  </div>
+</div>
+<!-- One menu row end -->
+<!-- One menu row -->
+<div class="row">
+  <div class="col-lg-4 col-lg-offset-2 col-xs-6  menuFishRight">
+
+
+    <span class="menuFishContentLeftTop">
+      Fish soppa</span><br/>
+
+
+     <span class="menuFishContentLeftBottom ">
+       Räkor musslorlipsuum
+     </span>
+  </div>
+  <div class="col-md-6 menuFishContentRightTop">
+      99 kr. | Rekommenderas
+  </div>
+</div>
+<!-- One menu row end -->
+<!-- One menu row -->
+<div class="row">
+  <div class="col-lg-4 col-lg-offset-2 col-xs-6  menuFishRight">
+
+
+    <span class="menuFishContentLeftTop">
+      Torsk mumbutumbu</span><br/>
+
+
+     <span class="menuFishContentLeftBottom ">
+       Räkor musslor lipsuum
+     </span>
+  </div>
+  <div class="col-md-6 menuFishContentRightTop">
+      259 kr.
+  </div>
+</div>
+<!-- One menu row end -->
+       <div id="reservation"></div>
+    </div>
+    </div>
+
+<!-- contact us -->
+<div class="container" >
+  <div class="row">
+    <div class="col-md-12  reservationTitle text-center">
+      - Reservation -
+    </div>
+  </div>
+  <div class="row reservationContent">
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8 ">
+      <div class="row">
+        <div class="col-xs-6 form-group">
+            <label>Namn</label>
+            <input class="form-control" type="text"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Efternamn</label>
+            <input class="form-control" type="text"/>
+        </div>
+        <div class="col-xs-6">
+            <div class="row">
+                <label class="col-xs-12">Tid</label>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <input class="form-control" type="text"/>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Email</label>
+            <input class="form-control" type="text" />
+        </div>
+        <div class="col-xs-3 form-group  ">
+        </div>
+
+        <div class="col-xs-6 form-group  text-center">
+            <button type="button" name="button" class="btn btnMain reservationBtn">Boka bord nu</button>
+        </div>
+        <div class="col-xs-3 form-group  ">
+        </div>
+    </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12"><div id="events"></div></div>
+  </div>
+
+
+
+</div>
+<div class="container-fluid events" >
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12  reservationTitle text-center">
+        - Events -
+      </div>
+    </div >
+
+    <div class="row ">
+      <div class="col-xs-2 col-md-6 col-sm-4">
+      </div>
+      <div class=" col-xs-10 col-sm-8 col-md-5 contentEvents">
+        <img src="images/anons.png" alt="18.00 idag event">
+      </div>
+      <div class="col-md-1 ">
+      </div>
+    </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="galleri" ></div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-12  aboutUsTitle text-center">
+        - Gallery -
+      </div>
+  </div>
+  <div class="row galleryRow">
+    <div class=" col-xs-12 col-md-4 ">
+      <a href="#">  <img src="images/garlic-1.jpg" alt="vitlök "></a>
+
+    </div>
+    <div class=" col-xs-12 col-md-4 ">
+      <a href="#">  <img src="images/garlic-1.jpg" alt="vitlök "></a>
+    </div>
+    <div class=" col-xs-12 col-md-4 ">
+      <a href="#">  <img src="images/garlic-1.jpg" alt="vitlök "></a>
+    </div>
+
+  </div>
+  <div class="row galleryRow">
+    <div class=" col-xs-12  col-md-4 ">
+      <a href="#">  <img src="images/garlic-1.jpg" alt="vitlök "></a>
+    </div>
+    <div class=" col-xs-12 col-md-4 ">
+      <a href="#">  <img src="images/garlic-1.jpg" alt="vitlök "></a>
+    </div>
+    <div class=" col-xs-12 col-md-4 ">
+      <a href="#">  <img src="images/garlic-1.jpg" alt="vitlök "></a>
+    </div>
+
+  </div>
+
+
+</div>
+<div class="container-fluid contacts" id="hittaoss">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12  hittaTitle text-center">
+        - Hitta oss -
+      </div>
+    </div >
+
+    <div class="row  ">
+      <div class="hidden-xs col-md-2"></div>
+      <div class="col-xs-12 col-md-8 ">
+
+        <div class="row no-gutter">
+          <div class="col-xs-8 ">
+            <span class="contactsH2">Arbetstid</span>
+
+          </div>
+          <div class="col-xs-1 col-sm-1">
+
+          </div>
+          <div class="col-xs-3 ">
+           <span class="contactsH2">Address</span>
+          </div>
+        </div>
+
+      <div class="row no-gutter">
+        <div class="col-xs-8 contactLines">
+           <div class="row">
+             <div class="col-xs-5">
+              <b> Mån - Tors: <br>
+               Fredag: <br>
+               Lördag: <br>
+               Söndag:</b>
+             </div>
+             <div class="col-xs-7 contactAlign">
+               11:00 - 18:00<br>
+               11:00 - 18:00<br>
+               11:00 - 18:00<br>
+               Stängt<br><br>
+             </div>
+           </div>
+        </div>
+        <div class="col-xs-1">
+
+        </div>
+        <div class="col-xs-3 contactLines">
+         <b>FreshFish</b><br>
+  Gatans namn 55 <br>
+  26334 Höganäs <br>
+
+        </div>
+      </div>
+      </div>
+      <div class="hidden-xs col-md-2"></div>
+    </div>
+  </div>
+ </div>
+</div>
+<div class="container-fluid text-center copyrait">© 2017 Dalius.se</div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+
+  </body>
+</html>
